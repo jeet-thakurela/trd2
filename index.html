@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivedi Dental Clinic</title>
+  <style>
+    /* Ensure all images have the same size */
+    
+  </style>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+  <div class="container d-flex align-items-center">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="logo.png" alt="Clinic Logo" height="100" width="150" class="me-2">
+      <span class="fw-bold fs-2 text-gray-800">Dr. Trivedi's Dental Clinic</span>
+    </a>
+
+    <!-- Navbar Toggler for Mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link text-gray-700 fw-semibold mx-2 btn-hover" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-gray-700 fw-semibold mx-2 btn-hover" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-gray-700 fw-semibold mx-2 btn-hover" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-gray-700 fw-semibold mx-2 btn-hover" href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero Section -->
+<section id="home" class="hero-section text-white text-center d-flex align-items-center" style="position: relative; height: 100vh; background-image: url('https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVudGFsJTIwY2xpbmljfGVufDB8fDB8fHww'); background-size: cover; background-position: center;">
+  <!-- Dark Overlay -->
+  <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.5);"></div>
+
+  <div class="container position-relative z-index-1">
+    <h1 class="display-4 fw-bold">Welcome to Dr.Trivedi's Dental Clinic</h1>
+    <p class="lead">Your one-stop solution for all dental needs.</p>
+    <a href="#services" class="btn btn-primary btn-lg mt-3">Explore Services</a>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Our Services</h2>
+    <div class="row g-4">
+      <!-- Service 1: General Dentistry -->
+      <div class="col-md-3">
+        <div class="card shadow position-relative" style="background-image: url('https://images.unsplash.com/photo-1663185551550-f8f56529ac5e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2VuZXJhbCUyMGRlbnRpc3RyeXxlbnwwfHwwfHx8MA%3D%3D/400x300'); background-size: cover;">
+          <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.3);"></div>
+
+          <div class="card-body text-white position-relative z-index-1">
+            <i class="bi bi-brush fs-1"></i>
+            <h5 class="card-title mt-3">General Dentistry</h5>
+            <p class="card-text">Regular check-ups and cleanings for a healthy smile.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Service 2: Cosmetic Dentistry -->
+      <div class="col-md-3">
+        <div class="card shadow position-relative" style="background-image: url('https://plus.unsplash.com/premium_photo-1702598544413-12567f383896?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29zdG1ldGljJTIwZGVudGlzdHJ5fGVufDB8fDB8fHww'); background-size: cover;">
+          <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.3);"></div>
+
+          <div class="card-body text-white position-relative z-index-1">
+            <i class="bi bi-brightness-alt-high fs-1 text-warning"></i>
+            <h5 class="card-title mt-3">Cosmetic Dentistry</h5>
+            <p class="card-text">Transform your smile with whitening, veneers, and more.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Service 3: Orthodontics -->
+      <div class="col-md-3">
+        <div class="card shadow position-relative" style="background-image: url('https://plus.unsplash.com/premium_photo-1661320819115-3946f19de4f5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b3J0aG9kb250aWN8ZW58MHx8MHx8fDA%3D'); background-size: cover;">
+          <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.3);"></div>
+
+          <div class="card-body text-white position-relative z-index-1">
+            <i class="bi bi-diagram-3 fs-1"></i>
+            <h5 class="card-title mt-3">Orthodontics</h5>
+            <p class="card-text">Braces and aligners for perfect teeth alignment.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Service 4: Dental Implants -->
+      <div class="col-md-3">
+        <div class="card shadow position-relative" style="background-image: url('https://images.unsplash.com/photo-1525893277997-207c04d47d65?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW1wbGFudHxlbnwwfHwwfHx8MA%3D%3D'); background-size: cover;">
+          <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.3);"></div>
+
+          <div class="card-body text-white position-relative z-index-1">
+            <i class="bi bi-screwdriver fs-1 text-danger"></i>
+            <h5 class="card-title mt-3">Dental Implants</h5>
+            <p class="card-text">Restore missing teeth with durable implants.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Clinic Photos Section -->
+<section id="clinic-photos" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Clinic Photos</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <img src="cln1.jpg.avif" class="clinic-photo img-fluid rounded shadow" alt="Clinic Photo 1">
+      </div>
+      <div class="col-md-4">
+        <img src="cln3.jpg.webp" class="clinic-photo img-fluid rounded shadow" alt="Clinic Photo 2">
+      </div>
+      <div class="col-md-4">
+        <img src="cln2.jpg.webp" class="clinic-photo img-fluid rounded shadow third-photo" alt="Clinic Photo 3">
+      </div>
+    </div>
+  </div>
+</section><!-- About Section -->
+<section id="about" class="bg-light py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">About Us</h2>
+
+    <!-- Doctor's Image and Description -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-4">
+        <img src="doc.jpeg" alt="Dr. Himanshu Trivedi" class="img-fluid rounded-circle shadow doctor-img">
+      </div>
+      <div class="col-md-8">
+        <p class="doctor-description text-muted">
+          Dr. Himanshu Trivedi (MDS in Periodontology from Aligarh Muslim University) is a renowned dental practitioner with expertise in Periodontology, Implant Dentistry, Esthetic Dentistry, Oral Surgery, and more. With 26 publications, 19,125 reads, and 46 citations, Dr. Trivedi is actively involved in research on Chemical Biology, Bone Regeneration, and Bone Grafts, with a current project titled "Quackery in Dentistry: A Field Study!"
+        </p>
+        <div class="d-flex justify-content-center mt-4">
+          <a href="https://www.researchgate.net/profile/Himanshu-Trivedi" class="btn btn-primary btn-know-more">Know More About Doctor</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="team-section mt-5">
+      <h3 class="fw-bold mb-4">Our Team</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="team-member">
+            <img src="team.jpg.avif" alt="Team Member 1" class="img-fluid rounded-circle shadow team-img">
+            <h5 class="mt-3">Team Member 1</h5>
+            <p class="text-muted">Role/Position</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team-member">
+            <img src="team.jpg.avif" alt="Team Member 2" class="img-fluid rounded-circle shadow team-img">
+            <h5 class="mt-3">Team Member 2</h5>
+            <p class="text-muted">Role/Position</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="team-member">
+            <img src="team.jpg.avif" alt="Team Member 3" class="img-fluid rounded-circle shadow team-img">
+            <h5 class="mt-3">Team Member 3</h5>
+            <p class="text-muted">Role/Position</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- reviews -->
+<section id="reviews" class="reviews-section">
+  <div class="container">
+    <h2>Patient Reviews</h2>
+    <p class="rating">⭐ <strong>4.9 / 5</strong> (206 Reviews)</p>
+
+    <div class="review">
+      <h3>Rahul Singh</h3>
+      <p class="stars">🌟🌟🌟🌟🌟 (5/5)</p>
+      <p class="comment">
+        "I had an accident where my teeth got broken, and Dr. Trivedi helped me with the implant. It's been 8 years since then, and I have had no problems. He is very skilled at his work. Overall, a great experience!"
+      </p>
+    </div>
+
+    <div class="review">
+      <h3>Chanchal</h3>
+      <p class="stars">🌟🌟🌟🌟🌟 (5/5)</p>
+      <p class="comment">
+        "Very clean and hygienic clinic with decent staff and a knowledgeable doctor. I am completely satisfied. The best clinic for all your dental problems!"
+      </p>
+    </div>
+
+    <div class="review">
+      <h3>Devika Sharma</h3>
+      <p class="stars">🌟🌟🌟🌟🌟 (5/5)</p>
+      <p class="comment">
+        "My implant procedure was done by Dr. Himanshu Trivedi, and the entire process was painless. I had a very good treatment experience at the clinic."
+      </p>
+    </div>
+
+    <div class="review">
+      <h3>Pitamber Singh Rawat</h3>
+      <p class="stars">🌟🌟🌟🌟🌟 (5/5)</p>
+      <p class="comment">
+        "The clinic is very clean. The staff and doctor's behavior are excellent. My wife and I got treated for RCT and caps, and she also had full mouth implants. We are fully satisfied!"
+      </p>
+    </div>
+  </div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">Contact Us</h2>
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-md-6 mb-4">
+        <h5 class="fw-bold">Get in Touch</h5>
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Send</button>
+        </form>
+      </div>
+
+      <!-- Map -->
+      <div class="col-md-6">
+        <h5 class="fw-bold">Visit Us</h5>
+        <div class="ratio ratio-16x9 shadow-sm">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1303.0002990197272!2d78.05586867089345!3d27.614861964009126!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1736431981690!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- WhatsApp Button -->
+    <div class="d-flex justify-content-center mt-4">
+      <a href="https://wa.me/9456095953" target="_blank" class="btn btn-success btn-whatsapp">
+        Chat with us on WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+  <!-- Fixed Book Appointment Button -->
+  <button class="btn btn-success btn-lg rounded-circle shadow position-fixed" style="bottom: 20px; right: 20px;" data-bs-toggle="modal" data-bs-target="#appointmentModal">
+    <i class="bi bi-calendar2-plus"></i> Book Appointment
+  </button>
+
+  <!-- Appointment Modal -->
+  <div class="modal fade" id="appointmentModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Book an Appointment</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form id="appointment-form">
+            <div class="mb-3">
+              <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <input type="date" id="appointment-date" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Book Appointment</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+<footer class="bg-light text-dark py-4">
+  <div class="container">
+    <div class="row">
+      <!-- About Section -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Dr. Trivedi's Dental Clinic</h5>
+        <p class="text-muted">
+          Dedicated to providing the highest quality dental care in a modern and comfortable environment.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-dark text-decoration-none">Home</a></li>
+          <li><a href="#services" class="text-dark text-decoration-none">Services</a></li>
+          <li><a href="#about" class="text-dark text-decoration-none">About Us</a></li>
+          <li><a href="#contact" class="text-dark text-decoration-none">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Contact Us</h5>
+        <p class="mb-1"><i class="bi bi-geo-alt-fill text-primary"></i> Ganesh tower, infront of jamuna bagh, Aligarh Rd, Basant Bagh, Water Works Colony, Hathras, Uttar Pradesh 204101</p>
+        <p class="mb-1"><i class="bi bi-telephone-fill text-primary"></i> 094560 95953</p>
+        <p><i class="bi bi-envelope-fill text-primary"></i> info@trivedidentalclinic.com</p>
+        
+        <!-- Social Media Icons -->
+        <div class="mt-3">
+          <a href="#" class="text-dark me-3"><i class="bi bi-facebook fs-5"></i></a>
+          <a href="#" class="text-dark me-3"><i class="bi bi-instagram fs-5"></i></a>
+          <a href="#" class="text-dark me-3"><i class="bi bi-twitter fs-5"></i></a>
+          <a href="#" class="text-dark"><i class="bi bi-linkedin fs-5"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="text-muted">
+
+    <!-- Footer Bottom -->
+    <div class="text-center">
+      <p class="mb-0 text-muted">&copy; 2025 Dr. Trivedi's Dental Clinic. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

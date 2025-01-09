@@ -1,0 +1,367 @@
+/* General Styles */
+/* body {
+   
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+  } */
+  /* Base styles */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #ffffff; /* Pure white for a clean, modern look */
+  padding: 15px 30px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand .fs-2 {
+  color: #4a4a4a; /* Dark gray text for the clinic name */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border for a clean look */
+}
+
+.navbar-toggler-icon {
+  background-color: #6c757d; /* Gray color for toggler icon */
+  border-radius: 50%; /* Rounded button for modern feel */
+  width: 30px;
+  height: 30px;
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #6c757d; /* Soft gray color */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  font-size: 1.1rem; /* Slightly larger text for better readability */
+}
+
+.nav-link:hover {
+  color: #000; /* Change to black on hover */
+}
+
+.btn-hover {
+  padding: 10px 15px;
+  border-radius: 25px; /* Rounded buttons */
+  background-color: transparent; /* Transparent base */
+  transition: all 0.3s ease;
+}
+
+.btn-hover:hover {
+  background-color: #e9ecef; /* Light gray hover effect */
+  color: #000; /* Darken text on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-brand {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-brand .fs-2 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+}
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .home-section, .services-section, .about-section, .contact-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .book-appointment {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #333;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  /* Modal */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .close-modal {
+    margin-top: 10px;
+    background: #ccc;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  /* Image wrapper to enforce consistent height */
+.image-wrapper {
+  height: 250px; /* Set a uniform height for all images */
+  overflow: hidden; /* Hide overflow to ensure consistent cropping */
+  position: relative; /* Ensures proper alignment */
+}
+/* Base styles for all images */
+.clinic-photo {
+  width: 100%; /* Ensure the image is responsive */
+  height: 500px; /* Default height for all images */
+  object-fit: cover; /* Crop images to maintain aspect ratio */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect to enlarge all images */
+.clinic-photo:hover {
+  transform: scale(1.1);
+}
+
+/* Specific styles for the third photo */
+
+/* Footer Styles */
+footer {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+footer h5 {
+  color: #4a4a4a; /* Dark gray for section headings */
+  font-size: 1.25rem;
+}
+
+footer p, footer a {
+  font-size: 0.9rem; /* Slightly smaller text for footer */
+}
+
+footer a {
+  color: #6c757d; /* Gray links */
+  transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+footer a:hover {
+  color: #000; /* Darker color on hover */
+}
+
+footer .bi {
+  color: #6c757d; /* Icon color matches text */
+  transition: color 0.3s ease;
+}
+
+footer .bi:hover {
+  color: #007bff; /* Blue hover effect for icons */
+}
+
+footer hr {
+  border-color: #e9ecef; /* Light gray divider */
+}
+.reviews-section {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.reviews-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.rating {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.review {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.review h3 {
+  font-size: 1.3em;
+  color: #0073e6;
+  margin-bottom: 5px;
+}
+
+.stars {
+  font-size: 1.1em;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.comment {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+}/* About Section Styles */
+#about {
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+#about h2, #about h3 {
+  color: #0c0e0f;
+  font-weight: bold;
+}
+
+/* Doctor Image */
+#about .doctor-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#about .doctor-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Doctor's Description Font Style */
+#about .doctor-description {
+  font-family: 'Georgia', serif;
+  line-height: 1.8;
+  font-size: 1.15rem;
+  text-align: justify;
+}
+
+/* Know More Button */
+#about .btn-know-more {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  padding: 12px 35px;
+  border-radius: 25px;
+  background-color: #050606;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+#about .btn-know-more:hover {
+  background-color: #050506;
+  transform: translateY(-3px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Team Section Styles */
+.team-section .team-member {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Team Member Image */
+.team-section .team-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-section .team-img:hover {
+  transform: scale(1.55);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.team-section .team-member h5 {
+  font-weight: bold;
+  margin-top: 0rem;
+  font-size: 1.2rem;
+}
+
+.team-section .team-member p {
+  font-style: italic;
+  color: #666;
+}
+/* Contact Us Section */
+#contact {
+  background-color: #f8f9fa;
+  padding: 4rem 0;
+}
+
+#contact h2 {
+  color: #0c0d0e;
+}
+
+.contact-info-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.contact-info-box h4 {
+  color: #000000;
+  font-size: 1.25rem;
+}
+
+.contact-info-box p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.btn-whatsapp {
+  background-color: #17803e;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 30px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #128c7e;
+}
